@@ -1,0 +1,43 @@
+*{
+    font-family: Verdana, sans-serif;
+}
+body{
+    background: white;
+    place-items: center;
+}
+.user-box{
+    max-width: 400px;
+    margin: 0 auto;
+    background: #ddd;
+    padding: 20px 40px;
+    border-radius: 20px;
+    box-shadow: 5px 15px 40px rgba(0, 0, 0, 0.4);
+}
+h2{
+    color: #777;
+}
+label, input{
+    display: block;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"]{
+    margin-top: 10px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #777;
+    padding: 15px 0px;
+    border-radius: 10px;
+    font-size: large;
+}
+
+input[type="submit"]{
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: aqua;
+    color: #022;
+}
